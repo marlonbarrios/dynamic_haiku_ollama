@@ -1,6 +1,6 @@
-# Emptiness Generator
+# Emptiness Generator (Ollama)
 
-A zen-inspired haiku generator that creates minimalist, animated haikus about emptiness (sunyata) using AI. The application features a beautiful, meditative interface with circular enso animations and particle-based text rendering.
+A zen-inspired haiku generator that creates minimalist, animated haikus about emptiness (sunyata) using generative AI. The application features a beautiful, meditative interface with circular enso animations and particle-based text rendering.
 
 ![Emptiness Generator](public/1.png)
 
@@ -48,16 +48,14 @@ This project uses modern web technologies to create a smooth, animated experienc
 
 ### Key Libraries
 
-- **p5.js** (v2.1.2) - Creative coding library for animations (types: @types/p5 v1.7.7)
 - **Google Fonts** - Web fonts (Cormorant Garamond, Playfair Display) loaded via CDN
 
 ### Why These Technologies?
 
 - **TypeScript**: Provides type safety and better IDE support, reducing bugs
 - **Vite**: Extremely fast development server and optimized production builds
-- **Canvas API**: Direct pixel-level control for smooth animations and custom rendering
+- **Canvas API**: Direct pixel-level control for smooth animations and custom rendering - no external animation libraries needed
 - **Ollama**: Enables local AI processing without cloud dependencies or API costs
-- **p5.js**: Simplifies complex animations and provides helpful utilities for creative coding
 
 ### System Requirements
 
